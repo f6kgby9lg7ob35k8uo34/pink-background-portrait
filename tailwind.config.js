@@ -68,9 +68,6 @@ module.exports = {
           blue: '#C774E8',
           purple: '#AD8CFF',
           green: '#8CFFDA',
-          yellow: '#FFFF8F',
-          orange: '#FFA500',
-          red: '#FF4500',
         },
       },
       borderRadius: {
