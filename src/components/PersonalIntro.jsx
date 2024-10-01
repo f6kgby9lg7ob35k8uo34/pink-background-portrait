@@ -24,11 +24,11 @@ const PersonalIntro = () => {
           </div>
         </div>
         <div className="relative w-64 h-64 mx-auto md:w-80 md:h-80">
-          <div className="absolute inset-0 bg-gradient-to-r from-neon-pink to-neon-purple rounded-full animate-pulse"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-neon-pink to-neon-purple rounded-full"></div>
           <img
             src="https://placekitten.com/300/300" // Replace with your actual photo URL
             alt="Profile"
-            className="absolute inset-2 w-[calc(100%-16px)] h-[calc(100%-16px)] object-cover rounded-full border-4 border-white animate-float"
+            className="absolute inset-2 w-[calc(100%-16px)] h-[calc(100%-16px)] object-cover rounded-full border-4 border-white"
           />
         </div>
       </div>
