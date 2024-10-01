@@ -3,22 +3,22 @@ import { FaGithub, FaTwitter, FaLinkedin } from 'react-icons/fa';
 
 const PersonalIntro = () => {
   return (
-    <div className="relative z-10 max-w-4xl w-full mx-auto">
+    <div className="relative z-10 max-w-4xl w-full mx-auto bg-white bg-opacity-10 p-8 rounded-lg backdrop-blur-sm">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         <div className="text-center md:text-left">
-          <h1 className="text-6xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-neon-green to-neon-blue">John Doe</h1>
-          <p className="mb-8 text-xl leading-relaxed">
+          <h1 className="text-6xl font-bold mb-4 text-white">John Doe</h1>
+          <p className="mb-8 text-xl leading-relaxed text-white">
             I'm a passionate developer with a love for creating beautiful and functional web applications. 
             My expertise includes React, Node.js, and cloud technologies.
           </p>
           <div className="flex justify-center md:justify-start space-x-6 mb-8">
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-3xl hover:text-neon-green transition-colors">
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-3xl text-white hover:text-neon-green transition-colors">
               <FaGithub />
             </a>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-3xl hover:text-neon-blue transition-colors">
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-3xl text-white hover:text-neon-blue transition-colors">
               <FaTwitter />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-3xl hover:text-neon-purple transition-colors">
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-3xl text-white hover:text-neon-purple transition-colors">
               <FaLinkedin />
             </a>
           </div>
@@ -33,13 +33,13 @@ const PersonalIntro = () => {
         </div>
       </div>
       <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8">
-        <div className="bg-white bg-opacity-10 p-6 rounded-lg backdrop-blur-sm">
+        <div className="bg-white bg-opacity-20 p-6 rounded-lg">
           <p className="font-semibold text-neon-green mb-2">Email:</p>
-          <p className="text-lg">johndoe@example.com</p>
+          <p className="text-lg text-white">johndoe@example.com</p>
         </div>
-        <div className="bg-white bg-opacity-10 p-6 rounded-lg backdrop-blur-sm">
+        <div className="bg-white bg-opacity-20 p-6 rounded-lg">
           <p className="font-semibold text-neon-blue mb-2">PGP Key:</p>
-          <p className="text-xs break-all font-mono">
+          <p className="text-xs break-all font-mono text-white">
             -----BEGIN PGP PUBLIC KEY BLOCK-----
             mQINBGHX5hABEADJbS8OKz6qMQYVLJeqvqVZJfHo1Zq...
             -----END PGP PUBLIC KEY BLOCK-----
